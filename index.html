@@ -1,160 +1,187 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="no-js">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yan Miguel Constantino</title>
+    <title>Yan Constantino | Data Analyst</title>
+    <meta name="description" content="Portfólio de Yan Miguel Constantino — Análise de Dados, Excel, Power BI e SQL.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
 
-    <header>
-        <h1>Yan Miguel Constantino</h1>
+    <!-- ================= CABEÇALHO ================= -->
+    <header class="header" id="topo">
+        <nav class="nav container">
+            <a href="#inicio" class="logo">Yan<span>.</span>dados</a>
+
+            <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="menu" id="menu">
+                <li><a href="#inicio" class="menu__link">Início</a></li>
+                <li><a href="#habilidades" class="menu__link">Habilidades</a></li>
+                <li><a href="#projetos" class="menu__link">Projetos</a></li>
+                <li><a href="#contato" class="menu__link menu__link--destaque">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <div class="apresentacao">
-            <div class="area__apresenatcao">
-                <h4>Data Analyst</h4>
-                <div class="txt__apresentacao">
-                    <h2>Yan Constantino</h2>
-                    <h3>Extraindo insights valiosos <br> e impulsionando decisões com dados</h3>
-                    <a href="#contato">
-                        <p>Entre em contato</p>
-                    </a>
+        <!-- ================= APRESENTAÇÃO ================= -->
+        <section class="hero container" id="inicio">
+            <div class="hero__texto reveal">
+                <span class="badge">Data Analyst</span>
+                <h1 class="hero__nome">Yan Constantino</h1>
+                <h2 class="hero__frase">
+                    Extraindo insights valiosos e impulsionando decisões com
+                    <span class="digitando" data-palavras='["dados.", "Excel.", "Power BI.", "SQL."]'>dados.</span>
+                </h2>
+                <div class="hero__botoes">
+                    <a href="#projetos" class="btn btn--primario">Ver projetos</a>
+                    <a href="#contato" class="btn btn--contorno">Entre em contato</a>
                 </div>
             </div>
-            <div class="img_apresentacao">
-                <img src="img/ChatGPT Image 23 de jul. de 2025, 00_04_38.png" alt="">
-            </div>            
-        </div>
+
+            <div class="hero__img reveal">
+                <img src="img/perfil.webp" alt="Foto de Yan Constantino" width="600" height="600">
+            </div>
+        </section>
+
+        <!-- ================= HABILIDADES ================= -->
+        <section class="secao secao--escura" id="habilidades">
+            <div class="container">
+                <div class="secao__titulo reveal">
+                    <h2>Minhas Habilidades</h2>
+                    <p>Conheça as ferramentas e competências que domino para transformar ideias em realidade.</p>
+                </div>
+
+                <div class="habilidades">
+                    <article class="skill reveal">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M360-280h240v-80H440v-80h160v-80H440v-80h160v-80H360v400ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                        <h3>Excel</h3>
+                        <p>Análise de dados com funções, limpeza e tratamento de dados, gráficos e visualizações, tabelas dinâmicas, funções de tempo e datas.</p>
+                    </article>
+                    <article class="skill reveal">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m280-80 160-300-320-40 480-460h80L520-580l320 40L360-80h-80Zm222-247 161-154-269-34 63-117-160 154 268 33-63 118Zm-22-153Z"/></svg>
+                        <h3>Power BI</h3>
+                        <p>Transformação de dados com Power Query, modelagem de dados, relatórios e dashboards, DAX, publicação e compartilhamento.</p>
+                    </article>
+                    <article class="skill reveal">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-120q-151 0-255.5-46.5T120-280v-400q0-66 105.5-113T480-840q149 0 254.5 47T840-680v400q0 67-104.5 113.5T480-120Zm0-479q89 0 179-25.5T760-679q-11-29-100.5-55T480-760q-91 0-178.5 25.5T200-679q14 30 101.5 55T480-599Zm0 199q42 0 81-4t74.5-11.5q35.5-7.5 67-18.5t57.5-25v-120q-26 14-57.5 25t-67 18.5Q600-528 561-524t-81 4q-42 0-82-4t-75.5-11.5Q287-543 256-554t-56-25v120q25 14 56 25t66.5 18.5Q358-408 398-404t82 4Zm0 200q46 0 93.5-7t87.5-18.5q40-11.5 67-26t32-29.5v-98q-26 14-57.5 25t-67 18.5Q600-328 561-324t-81 4q-42 0-82-4t-75.5-11.5Q287-343 256-354t-56-25v99q5 15 31.5 29t66.5 25.5q40 11.5 88 18.5t94 7Z"/></svg>
+                        <h3>SQL</h3>
+                        <p>Leitura, inserção e atualização de dados, junções, funções de agregação, restrições e integridade, subconsultas e criação de bancos.</p>
+                    </article>
+                    <article class="skill reveal">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg>
+                        <h3>JavaScript</h3>
+                        <p>Manipulação de arrays e objetos, DOM, lógica de programação, condicionais e loops.</p>
+                    </article>
+                    <article class="skill reveal">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg>
+                        <h3>HTML</h3>
+                        <p>HTML5, elementos semânticos modernos, estruturação de layout, responsividade e mídia.</p>
+                    </article>
+                    <article class="skill reveal">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg>
+                        <h3>CSS</h3>
+                        <p>Seletores, cores e fontes, box model, posicionamento, unidades de medida, Flexbox, Grid e responsividade.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROJETOS ================= -->
+        <!-- Os cards são gerados pelo arquivo projetos.js — edite lá para adicionar projetos -->
+        <section class="secao" id="projetos">
+            <div class="container">
+                <div class="secao__titulo reveal">
+                    <h2>Meus Projetos</h2>
+                    <p>Projetos práticos de análise, tratamento e visualização de dados.</p>
+                </div>
+
+                <div class="filtros" role="tablist" aria-label="Filtrar projetos"></div>
+
+                <div class="projetos" id="lista-projetos"></div>
+
+                <noscript>
+                    <p class="aviso">Ative o JavaScript para ver os projetos.</p>
+                </noscript>
+            </div>
+        </section>
+
+        <!-- ================= CONTATO ================= -->
+        <section class="secao" id="contato">
+            <div class="container">
+                <div class="contato reveal">
+                    <div class="secao__titulo">
+                        <h2>Entre em Contato</h2>
+                        <p>Escolha a forma de contato e vamos trabalhar juntos!</p>
+                    </div>
+
+                    <div class="contatos">
+                        <div class="contato__item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
+                            <div>
+                                <h3>Email</h3>
+                                <a href="mailto:yancnstntn@gmail.com">yancnstntn@gmail.com</a>
+                                <button class="copiar" data-copiar="yancnstntn@gmail.com" type="button">Copiar email</button>
+                            </div>
+                        </div>
+
+                        <a class="contato__item" href="https://www.linkedin.com/in/yan-miguel-90180a342/" target="_blank" rel="noopener">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+                            <div>
+                                <h3>LinkedIn</h3>
+                                <span>linkedin.com/in/yan-miguel</span>
+                            </div>
+                        </a>
+
+                        <a class="contato__item" href="https://github.com/Yconstantino" target="_blank" rel="noopener">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .32.21.69.82.57A12 12 0 0 0 12 .3Z"/></svg>
+                            <div>
+                                <h3>GitHub</h3>
+                                <span>github.com/Yconstantino</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <section class="habilidades__apresentacao">
-        <div class="habilidades">
-            <div class="titulo_subtiulo_habilidades">
-                <h2>Minhas Habilidades</h2>
-                <p>Conheça as ferramentas e competências que domino para transformar ideias em realidade.</p>
-            </div>
-        </div>
-        <div class="habilidades__mostrada">
-            <div class="habilidades__incons__txt">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fafafa"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg>
-                <h3>JavaScript</h3>
-                <p>Manipulação de Arrays e Objetos, Document Object Model, Lógica de programação, Condicionais, Loops</p>
-            </div>
-            <div class="habilidades__incons__txt">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fafafa"><path d="M480-120q-151 0-255.5-46.5T120-280v-400q0-66 105.5-113T480-840q149 0 254.5 47T840-680v400q0 67-104.5 113.5T480-120Zm0-479q89 0 179-25.5T760-679q-11-29-100.5-55T480-760q-91 0-178.5 25.5T200-679q14 30 101.5 55T480-599Zm0 199q42 0 81-4t74.5-11.5q35.5-7.5 67-18.5t57.5-25v-120q-26 14-57.5 25t-67 18.5Q600-528 561-524t-81 4q-42 0-82-4t-75.5-11.5Q287-543 256-554t-56-25v120q25 14 56 25t66.5 18.5Q358-408 398-404t82 4Zm0 200q46 0 93.5-7t87.5-18.5q40-11.5 67-26t32-29.5v-98q-26 14-57.5 25t-67 18.5Q600-328 561-324t-81 4q-42 0-82-4t-75.5-11.5Q287-343 256-354t-56-25v99q5 15 31.5 29t66.5 25.5q40 11.5 88 18.5t94 7Z"/></svg>
-                <h3>SQL</h3>
-                <p>Leitura de dados, Inserção e atualização, Junções Funções de Agregação, Restrições e Integridade,  Subconsultas e Expressões Avançadas,  Criação e Estrutura de Banco de Dados</p>
-            </div>
-            <div class="habilidades__incons__txt">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fafafa"><path d="m280-80 160-300-320-40 480-460h80L520-580l320 40L360-80h-80Zm222-247 161-154-269-34 63-117-160 154 268 33-63 118Zm-22-153Z"/></svg>
-                <h3>Power BI</h3>
-                <p>Transformação de Dados com Power Query, Modelagem de Dados, Criação de Relatórios e Dashboards, DAX, Publicação e Compartilhamento</p>
-            </div>
-        </div>
-
-        <div class="habilidades__mostrada segundo">
-            <div class="habilidades__incons__txt">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fafafa"><path d="M360-280h240v-80H440v-80h160v-80H440v-80h160v-80H360v400ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
-                <h3>EXCEL</h3>
-                <p>Análise de Dados com Funções, Limpeza e Tratamento de Dados, Gráficos e Visualizações, Tabelas Dinâmicas, Funções de Tempo e Datas</p>
-            </div>
-            <div class="habilidades__incons__txt">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fafafa"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg>
-                <h3>HTML</h3>
-                <p>Responsividade e Mídia, HTML 5, Elementos semânticos modernos, Estruturação de Layout</p>
-            </div>
-            <div class="habilidades__incons__txt">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fafafa"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg>
-                <h3>CSS</h3>
-                <p>Seletores CSS, Cores - Fontes e Estilos, Box Model, Posicionamento e Layout, Unidades de Medida, Responsividade, Flexbox, Grid Layout </p>
-            </div>
-        </div>
-
-    </section>
-
-    <section>
-        <div class="projetos">
-            <div class="projetos_titulo">
-                <h2>MEUS PROJETOS</h2>
-            </div>
-            <div class="projetos_mostrado">
-                <div class="projeto-card">
-                    <div class="projetos_mostrado_img">
-                        <h3 class="nome_projetos">LIGEIRINHO TRANSPORTES</h3>
-                    </div>
-                    <div class="projetos_mostrado_descricao">
-                        <h3>Projeto Gastos Com Manutenção</h3>
-                        <h4>Projeto em Excel que simula a gestão de uma transportadora, reunindo todos os veículos da frota e realizando o controle detalhado dos custos operacionais, como gastos com pneus, manutenções preventivas e corretivas, além de outras despesas relacionadas. Conta com um dashboard interativo para análise completa dos dados, utilizando tabelas dinâmicas, gráficos e indicadores para facilitar a visualização dos resultados e apoiar a tomada de decisões estratégicas.</h4>
-                        <a href="https://1drv.ms/x/c/4b5aaa1a8d3090d7/IQC80RCcLtbJRoPq625_x5QpAR6NHl_0On-qsMvjBUj09mI?e=PaBjtJ">
-                            <p>Ver Projeto</p>
-                        </a>
-                    </div>
-                    <div class="projetos_mostrado_img">
-                        <img src="img/carre.png" alt="">
-                    </div>
-                    <div class="projetos_mostrado_descricao">
-                        <h3>Novos Projetos Em Breve </h3>
-                        <h4></h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="contato">
-            <div class="contato_titulo">
-                <h1>Entre em Contato</h1>
-                <p>Clique na forma de contato e vamos trabalha juntos!</p>
-            </div>
-            <div class="contatos" id="contato">
-                <div class="contato_detalhes">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fafafa"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
-                    <div class="contato_detalhes_txt">
-                        <h4>Email</h4>
-                        <a href="mailto:yancnstntn@gmail.com">
-                            <p>yancnstntn@gmail.com</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="contato_detalhes">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fafafa"><path d="M440-280H280q-83 0-141.5-58.5T80-480q0-83 58.5-141.5T280-680h160v80H280q-50 0-85 35t-35 85q0 50 35 85t85 35h160v80ZM320-440v-80h320v80H320Zm200 160v-80h160q50 0 85-35t35-85q0-50-35-85t-85-35H520v-80h160q83 0 141.5 58.5T880-480q0 83-58.5 141.5T680-280H520Z"/></svg>
-                    <div class="contato_detalhes_txt">
-                        <h4>Linkedin</h4>
-                        <a href="https://www.linkedin.com/in/yan-miguel-90180a342/">
-                            <p>linkedin.com/in/yan-miguel</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="contato_detalhes">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fafafa"><path d="M360-240h440v-107H360v107ZM160-613h120v-107H160v107Zm0 187h120v-107H160v107Zm0 186h120v-107H160v107Zm200-186h440v-107H360v107Zm0-187h440v-107H360v107ZM160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Z"/></svg>
-                    <div class="contato_detalhes_txt">
-                        <h4>Github</h4>
-                        <a href="https://github.com/Yconstantino">
-                            <p>Meu Github</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <hr>
-
-    <footer>
-        <div class="final_site">
-            <div class="final_site_txt">
-                <h2>Yan Miguel Constantino</h2>
+    <!-- ================= RODAPÉ ================= -->
+    <footer class="rodape">
+        <div class="container rodape__conteudo">
+            <div>
+                <strong>Yan Miguel Constantino</strong>
                 <p>Data Analyst</p>
             </div>
+            <p class="rodape__copy">© <span id="ano">2026</span> — Feito com HTML, CSS e JavaScript</p>
         </div>
     </footer>
 
+    <!-- Botão voltar ao topo -->
+    <button class="topo" aria-label="Voltar ao topo" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"/></svg>
+    </button>
 
-    
+    <!-- Aviso (toast) -->
+    <div class="toast" role="status" aria-live="polite"></div>
+
+    <!-- Modal de detalhes do projeto -->
+    <div class="modal" id="modal" aria-hidden="true">
+        <div class="modal__fundo" data-fechar></div>
+        <div class="modal__caixa" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+            <button class="modal__fechar" data-fechar aria-label="Fechar" type="button">&times;</button>
+            <div class="modal__conteudo"></div>
+        </div>
+    </div>
+
+    <script src="projetos.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
